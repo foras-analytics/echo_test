@@ -1,0 +1,13 @@
+[
+  {"name":"Valid with issues","messages":[
+    {"sender":"a@example.com","sentTime":"2026-11-10T10:20:30.123456789+01:00","subject":"Alpha","messageText":"AlphaStatus und der die. Bravo Alpha."},
+    {"sender":"b@example.com","sentTime":"2026-11-10T08:20:30.456-01:00"},
+    {"sender":"b@example.com","sentTime":"2026-11-10T10:21:30+01:00","subject":42,"messageText":"Müller Mueller"},
+    {"sender":"","sentTime":"2026-11-10T10:22:30+01:00"},
+    {"sender":"c@example.com","sentTime":"2026-11-10T10:23:30"},
+    "bad record"
+  ]},
+  {"name":"Valid with issues","messages":[{"sender":"a@example.com","sentTime":"2026-11-10T09:22:30Z","subject":"Bravo"}]},
+  {"name":"Empty channel","messages":[]},
+  {"name":"Broken channel","messages":null}
+]
